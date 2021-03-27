@@ -8,7 +8,7 @@ class Car():#붕어빵찍는틀 ()안에는 object생략
     def __str__(self):
         return 'hello world'
     def __init__(self):
-        print('인스턴스가 만들어졌습니다!!!!!')#인스턴스가 만들어질때마다 무조건생성 2~3
+        print('인스턴스가 만들어졌습니다!!!!!')#기존에 있던 __init__재정의/dir(k9)로 확인가능/인스턴스가 만들어질때마다 무조건생성 2~3
 
 
 #class는 붕어빵 찍는 툴로 생각한다면 instance는 붕어빵(찍혀서나온것)이다.
