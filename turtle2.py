@@ -21,6 +21,17 @@ def leftClick(x,y):
     #x,y좌표까지 이동한다
     turtle.goto(x,y)
 
+    #left, middle 통합
+    r = random.random()
+    g = random.random()
+    b = random.random()
+
+    #거북이 크기랜덤
+    tSize = random.randrange(1,10)
+    
+    #펜크기 랜덤
+    pSize = turtle.shapesize(tSize)
+
 def rightClick(x,y):
     #펜을 든다
     turtle.penup()
@@ -43,6 +54,6 @@ def middleClick(x,y):
 
 turtle.onscreenclick(leftClick,1)
 turtle.onscreenclick(rightClick,3)
-turtle.onscreenclick(middleClick,2)
+# turtle.onscreenclick(middleClick,2)
 
 turtle.done()
