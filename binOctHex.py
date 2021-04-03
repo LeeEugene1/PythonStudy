@@ -13,6 +13,10 @@ elif sel == 8:
     num10 = int(num,8)
 elif sel == 2:
     num10 = int(num,2)
+else:
+    print('16,19,8,2 숫자중 하나만 입력하세요')
+    exit()
+
 
 print('16진수->',hex(num10))
 print('10진수->',num10)
